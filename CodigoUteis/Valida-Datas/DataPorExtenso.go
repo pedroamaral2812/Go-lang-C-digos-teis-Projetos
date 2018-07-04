@@ -1,11 +1,7 @@
 package main
 
-import (
-	"fmt"
-)
-
 //A função está pressupondo que a data é valida, mas há uma validação de mês invalido
-//Está recebendo uma string, se for um tipo data é necessário transforma-la em string no formato dd/mm/aaaa.
+//Está recebendo uma string, se for um tipo data é necessário transforma-la em string no formato dd/mm/aaaa ou dd-mm-aaaa.
 func DataExtenso(data string) string {
 
 	dataExtenso := make([]string, 3)
@@ -42,11 +38,12 @@ func DataExtenso(data string) string {
 	} else {
 		return "Mês invalido"
 	}
-
 }
 
+/* Para testar a função
 func main() {
 	data := DataExtenso("22-00-2010")
 	fmt.Println(data)
 
 }
+*/
