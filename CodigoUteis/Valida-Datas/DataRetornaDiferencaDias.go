@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-//CompararDatas : Função que retorna a diferença de dias.
+//RetornaDias : Função que retorna a diferença de dias.
 //Caso a segunda data for menor que a primeira data o numero vem negativo
 func RetornaDias(Dia1, Mes1, Ano1, Dia2, Mes2, Ano2 int) int {
 
