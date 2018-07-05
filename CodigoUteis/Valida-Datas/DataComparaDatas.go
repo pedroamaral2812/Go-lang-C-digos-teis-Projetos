@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -33,9 +32,11 @@ func CompararDatas(Dia1, Mes1, Ano1, Dia2, Mes2, Ano2 int) int {
 	}
 }
 
+/*
 func main() {
 
 	data := CompararDatas(01, 04, 2001, 02, 01, 2001)
 	fmt.Println(data)
 
 }
+*/
