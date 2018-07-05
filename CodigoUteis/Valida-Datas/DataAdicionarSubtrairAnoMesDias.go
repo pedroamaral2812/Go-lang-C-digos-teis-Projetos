@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"time"
 )
 
@@ -59,6 +58,7 @@ func DataAdicionarSubtrairAno(numeroAno int) string {
 	return DataFormatada
 }
 
+/*
 func main() {
 
 	data := DataAdicionarSubtrairDias(30)
@@ -67,3 +67,4 @@ func main() {
 
 	fmt.Printf(data)
 }
+*/
