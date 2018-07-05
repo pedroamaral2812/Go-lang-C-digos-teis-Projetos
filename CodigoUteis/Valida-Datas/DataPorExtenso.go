@@ -1,6 +1,6 @@
 package main
 
-//A função está pressupondo que a data é valida, mas há uma validação de mês invalido
+//DataExtenso : a função está pressupondo que a data é valida, mas há uma validação de mês invalido
 //Está recebendo uma string, se for um tipo data é necessário transforma-la em string no formato dd/mm/aaaa ou dd-mm-aaaa.
 func DataExtenso(data string) string {
 

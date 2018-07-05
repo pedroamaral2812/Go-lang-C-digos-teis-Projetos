@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
-
-//A função está pressupondo que a data é valida(sem mes 13 ou dias 32 por exemplo)
+//DataParaPadraoBrasileiro : A função está pressupondo que a data é valida(sem mes 13 ou dias 32 por exemplo)
 //A função está recebendo a data em formato de string.
 func DataParaPadraoBrasileiro(data string) string {
 
@@ -23,7 +19,9 @@ func DataParaPadraoBrasileiro(data string) string {
 	//return dataExtenso[2] + "/" + dataExtenso[1] + "/" + dataExtenso[0]
 }
 
+/*Para testar a função
 func main() {
 	data := DataParaPadraoBrasileiro("2012-11-05")
 	fmt.Println(data)
 }
+*/
